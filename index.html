@@ -4,30 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Skyvine Studios</title>
-    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-  <main>
-   <header>
-    <div class ="top-row">
+  
+    <header class="site_header">
       <h1>Skyvine Studios</h1>
-      <img src="./images/SVS_logo.png" alt = "SVS logo" hight="50" width="50">
-        <nav id="navbar">
-          <ul>
-            <li><a href="./about_us.html">About us</a></li>
-            <li><a href="./pricing.html">Pricing</a></li>
-            <li><a href="./contact_us.html">Contact Us</a></li>
-          </ul>
-        </nav>
-      </div>
-      <article class="hero_text">
-        <h1>this is the hero text for the site</h1>
-        <p>hero text goes herehero text goes herehero text goes here
-          hero text goes herehero text goes herehero text goes here
-          hero text goes herehero text goes herehero text goes here</p>
-      </article>
+      <img id="logo" src="./images/SVS_logo.png" alt="Skyvine Studios logo">
+      <nav id="navbar" aria-label="Main navigation">
+        <ul>
+          <li><a href="./about_us.html">About Us</a></li>
+          <li><a href="./pricing.html">Pricing</a></li>
+          <li><a href="./contact_us.html">Contact Us</a></li>
+        </ul>
+      </nav>
     </header> 
-  </main>
+    
+    <Main>
+      <section id="above_the_fold">
+       <article id="hero_text">
+        <H2>built for healthcare headaches</H2>
+        <p>This section is a quick explanation of the service SVS provides. A quick call out to the target audience with a specific pain point identified.</p>
+        <button class="CTA_button">Book a call</button>
+       </article>
+
+       <article id="image">
+        <img src="./images/SVS_logo.png" alt="placeholder image">
+       </article>
+      </section> 
+
+      <section id="below_the_fold">
+        <h2 class="section_heading">How we help</h2>
+        <section id="products">
+          <figure class="product_card">
+           <img src="./images/SVS_logo.png" alt="placeholder" class="product_icon">
+            <figcaption>brief product description</figcaption>
+          </figure>
+
+           <figure class="product_card">
+           <img src="./images/SVS_logo.png" alt="placeholder" class="product_icon">
+            <figcaption>brief product description</figcaption>
+          </figure>
+
+           <figure class="product_card">
+           <img src="./images/SVS_logo.png" alt="placeholder" class="product_icon">
+            <figcaption>brief product description</figcaption>
+          </figure>
+
+           <figure class="product_card">
+           <img src="./images/SVS_logo.png" alt="placeholder" class="product_icon">
+            <figcaption>brief product description</figcaption>
+          </figure>
+
+        </section>
+      </section>
+
+    </Main>
+
   </body>
 </html>
-
